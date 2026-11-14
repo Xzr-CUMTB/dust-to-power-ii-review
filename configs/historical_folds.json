@@ -1,0 +1,58 @@
+{
+  "id": "P7-v1",
+  "folds": {
+    "early": [
+      "2019-04-10",
+      "2019-04-17",
+      "2019-05-04"
+    ],
+    "anchor": [
+      "2019-04-24",
+      "2019-05-04",
+      "2019-05-21"
+    ],
+    "later": [
+      "2019-05-14",
+      "2019-05-21",
+      "2019-06-12"
+    ]
+  },
+  "baseline_choice": "minimum sum shortage March25–31 for F1 P6 soc, linear,dual; tie actual reserve then throughput; selection historical inspected P6",
+  "configuration": {
+    "E": 33.3,
+    "P": 16.65,
+    "R": 9.99,
+    "budget": 25,
+    "commitment": 0.7,
+    "dt": 0.25,
+    "charge_efficiency": 0.95,
+    "discharge_efficiency": 0.95,
+    "initial_terminal_soc": 3.33,
+    "members": 32
+  },
+  "resource_grid": {
+    "reserve": [
+      15,
+      20,
+      25
+    ],
+    "throughput_penalty": [
+      0.0001,
+      0.05,
+      0.2
+    ],
+    "reserve_match_per_day": 0.45,
+    "throughput_match_per_day": 1.5
+  },
+  "seeds": [
+    42,
+    3407,
+    2025
+  ],
+  "labels": "day-equal; states every 8 quarters in active hours with day-index rotating phase, alternate realized strategies plus physically replayed perturbation; exact day-end continuation and same solar truth for alternatives; subsequent states use BMS plus PV innovation h-2",
+  "gate": "whole member stratified counts round(32*w), common permutation. score branch empirical CRPS; decision branch learns soft source allocation from paired realized downstream costs at matched starts",
+  "selection": "choose regression/ranking based on full validation-day shortfall, reserve tie break. keep round1 and round2; lock winning learned version on validation. predesign primary seed42; other two refit on same anchor fold. chronological fold roles with inherited P5/P6 previously inspected models.",
+  "tight": "P6 definition on common F1 selected Gaussian reference, commitment active and usable SOC<=20% or spare<=5 MWh. own-state supplementary.",
+  "external": "single-station source-clock full days, anchor systems normalized to nominal capacity, historical seasonal profiles plus conditional analogue full paths, zero-shot transfer of selected advantage head with site-scaled compatible physical features; no PM. source historical complete-day 2019 separately; 2020 already inspected. Full-day session 00:15–24:00 targets, rolling delayed observations. Representative sites 1,2 followed by all eligible sites; prespecified first 7 complete days per calendar month per site in 2020 for replay.",
+  "classification": "PVOD previously inspected R&D; cutoff fold applies to new P7 weights. No new blind test."
+}

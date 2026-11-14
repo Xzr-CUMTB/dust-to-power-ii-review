@@ -1,0 +1,6 @@
+{
+  "original": "Unchanged frozen P17 R3 selector for repeated fits, H allocation and the finite-candidate opportunity bound.",
+  "revision": "P18-CLOSE lowest-index near tie in risk branch and retrained E0 heads. The O95 headline and F12 use revised execution.",
+  "fixed_issue": "Dispatch unit tests use the same archived issued plan for both executors.",
+  "candidate_history": "P18-CLOSE revised E0 with live settled feedback; D0, M1 and M3 each use their own separately fitted head and path."
+}

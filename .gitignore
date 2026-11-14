@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.pytest_cache/
+/data/raw/
+/data/processed/
+/data/metadata/
+/logs/

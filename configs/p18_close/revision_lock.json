@@ -1,0 +1,16 @@
+{
+  "identity": "technical revision / C-class follow-up, not independent confirmation",
+  "evidence": "results/p18_close/trace/SUMMARY.json",
+  "evidence_sha256": "c32ca20a1933aae59da8be3be7a405aeeb1bb1df241d86f4d55bae2e94b5a2ed",
+  "change": "kind3 risk objective argmin -> lowest candidate index within1e-9 of minimum; all other selector branches unchanged",
+  "tolerance": 1e-09,
+  "units": "objective MWh in normalized 66.6MW system; physical site tolerance scales by capacity/66.6",
+  "basis": "reuse pre-existing kind0 1e-9 numerical tolerance; observed dev roundoff <=1.71e-13; fixed before revised evaluation",
+  "forecasts_features_coefficients": "unchanged; no canonical sorting necessary for observed cause",
+  "sources": {
+    "src/planning/p9/dispatch.py": "176faf7588ad0592bbbbad507b8354b6658f3eda7a41be5cc67896d227207224",
+    "src/dispatch/p16/supervisor.py": "7f6ebe4bd8ce6f2f09cc3edfe6b50a0653c413f4a4bb7f5c87990624e818fcf3",
+    "src/dispatch/p8/risk.py": "ef9bb639e9c8c44e5cf607c2f2e73025670ae2aa3134e8ab434ffc5dfa842467"
+  },
+  "stage": "fixed original issued plans first; frozen-head reissue separate from label-rebuilt complete method"
+}

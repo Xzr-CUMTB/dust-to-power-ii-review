@@ -1,0 +1,9 @@
+torch==2.7.1+cu128
+numpy==1.26.4
+numba==0.60.0
+pandas==2.2.3
+scipy==1.13.1
+pyarrow==20.0.0
+lightgbm==4.6.0
+scikit-learn==1.6.1
+pvlib==0.13.0

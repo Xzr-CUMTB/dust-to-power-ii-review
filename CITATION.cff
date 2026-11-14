@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Dust-to-Power II: reproducibility code for photovoltaic scheduling and dispatch"
+message: "Please cite this software using the author list below."
+type: software
+authors:
+  - family-names: Xu
+    given-names: Zirui
+  - family-names: Sun
+    given-names: Mengchen
+  - family-names: Hao
+    given-names: Pengpeng
+  - family-names: Wu
+    given-names: Peiyao
+  - family-names: Zhang
+    given-names: Bixing

@@ -1,0 +1,33 @@
+{
+  "python": "3.9.20 | packaged by conda-forge | (main, Sep 30 2024, 17:43:23) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "torch": "2.7.1+cu128",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "20.0.0",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "torch": "2.7.1+cu128",
+    "joblib": "1.4.2",
+    "requests": "2.32.5",
+    "openpyxl": "3.1.5",
+    "numba": "0.60.0",
+    "psutil": "7.0.0",
+    "dask": "2024.8.0",
+    "xarray": "2024.7.0"
+  },
+  "local_package_versions": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "numba": "0.60.0",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "pyarrow": "20.0.0",
+    "lightgbm": "4.6.0",
+    "scikit-learn": "1.6.1",
+    "pvlib": "0.13.0"
+  }
+}

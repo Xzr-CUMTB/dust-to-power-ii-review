@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "method_lock_sha256": "af74d21a1bdc25363e957e3f2218b66f8d8138db6a2503f8a26faf7d313637cf",
+  "screening": "All local PVOD10 source days; full registered State Grid and Hong Kong native coverage and indexed leads. No labels or policy performance as inclusion criteria. External public evidence (clock, coordinates, measured power, permission and source independence) required for a full O/H claim.",
+  "A": "Never used for fitting, early stopping, scaling, retrieval, QA or policy/threshold selection, or prior outcome review; identical full forward chain and distinct date/site identity verified. Unknown lineage precludes A.",
+  "B": "New engineering setting or date with already reviewed inputs/weather, scored forward only when all component dates before evaluated issues. Can share same station meters with C; it contributes zero new independent physical sites/weather if so.",
+  "C": "Every prior scored date/system remains historical development; exact rerun and archived action reconstruction separately identified.",
+  "new_local_design": {
+    "scope": "All four original cluster component stations 00/04/07/08 presented separately, using P13 local-station recipe for first time under P17. All four retained regardless of score.",
+    "training_interface": "same P13 calendar from 2019-03-05; through 2019-04-05 last five usable dates internal validation, one date embargo. At least 5 eligible prior local weather analogs; past complete PV library <=D-2.",
+    "calibration": "2019-04-08..2019-05-05 as in P13; P15 stage_ids within this period; budget derived before first evaluation.",
+    "evaluation": "2019-05-08..2019-06-12 inclusive (maximum locally archived full-day business GFS coverage), include every eligible date for a station; no sampling by result.",
+    "complete": "96 distinct consecutive quarter-hours on the source UTC clock assigned to local date by subtracting 15 min, finite nonnegative power; preserve raw above-capacity values and original nominal scaling for 04. Site metadata position; 4 leads x 2 fields of eligible operational GFS, matching nearest cell; actual end bounds, init<issue, archive mtime<=issue.",
+    "forward": "Explicit P6 SOC and inherited P8 anchor risk-fit cutoff, local generation validation and policy calibration complete before May08; development labels from the frozen simulator are retrospective offline training inputs, never issued as new independent development forecasts. All site-specific locks computed before evaluation."
+  },
+  "C_reproduction": "Reissue prescribed policies via frozen P16 policy16.run on original core/5 sites/02 debug; same seed series for primary and H where archived. Recompute newly required standalone D0/local controls and paired M1/D0-head repeats where trained in P17; keep recorded status. Verify against P16 without tuning.",
+  "failure": "Record exclusion reason before scoring; technical interface repair only; retain failed attempt, same corrected code for all affected sites/seeds; no date or primary changes.",
+  "intervals": {
+    "unit": "same calendar-day weather across all sites; ISO Monday-Sunday nonoverlapping blocks in common chronological calendar, preserve shared resampling indices across site/method/seed",
+    "type": "paired calendar-week cluster percentile 95%, 2000 replicas, RNG 17042. Report point totals and equivalent-period paired deltas, ratios computed from resampled sums. For within-week or one available weather block report interval unavailable. Descriptive for reviewed data.",
+    "natural_blocks": "predeclared chronological contiguous runs of valid dates, split at each gap; preserve full-run policy state when slicing; separate from reset experiments."
+  },
+  "outcome_access": "Eligibility/calendar finalized before first new B outcome score. No network, objective or budget redesign. No new method after review."
+}
